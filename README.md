@@ -62,7 +62,7 @@
 
 7. 分分钟启动部署一个运维监控系统 (**Prometheus**+**Grafana**) //待定
 
-
+![mon](https://github.com/IvyB/Docker-hand-on-NEUMSC/raw/master/img/monitor.png)
 
 ## 安装 Docker
 
@@ -111,3 +111,4 @@ sudo systemctl restart docker
 
 
 
+chmod a+rwx /home/tongao/monitor/data/grafana-storage 
