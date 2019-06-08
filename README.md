@@ -2,7 +2,7 @@
 
 ![head](https://github.com/IvyB/Docker-hand-on-NEUMSC/raw/master/img/head.png)
 
-#### 满足你对 **操作简单**、**跨平台**、**易于部署**、**高性能** 的需求。
+满足你对 **操作简单**、**跨平台**、**易于部署**、**高性能** 的需求。
 
 一键管理复杂应用？
 
@@ -18,7 +18,7 @@
 
 上面👆这些都只用**几行命令**就轻松完成？
 
-#### **Docker 都可以搞定**
+**Docker 都可以搞定**
 
 ![](https://tzr-1251830633.cos.ap-beijing.myqcloud.com/wudi.jpg)
 
