@@ -1,0 +1,14 @@
+global:
+  scrape_interval: 200s
+  evaluation_interval: 60s
+  scrape_timeout: 10s
+
+scrape_configs:
+  # job name 会以标签`job=<job_name>`添加到每一条由该配置抓去到的时序数据
+  - job_name: 'node_exporter'
+ 
+  #   # 覆盖默认抓取间隔
+  #   # scrape_interval: 5s
+ 
+    static_configs:
+      - targets: ['123.206.254.42:9100']

@@ -1,0 +1,52 @@
+version: '2.4'
+
+networks:
+    monitor:
+        driver: bridge
+
+services:
+    prometheus:
+        image: prom/prometheus
+        container_name: prometheus
+        hostname: prometheus
+        privileged: true
+        restart: always
+        volumes:
+            - /home/tongao/monitor/prometheus.yml:/etc/prometheus/prometheus.yml
+            - /home/tongao/monitor/data/prometheus/:/prometheus
+        ports:
+            - "9090:9090"
+        networks:
+            - monitor
+        command: --config.file=/etc/prometheus/prometheus.yml --storage.tsdb.path=/prometheus
+
+
+    grafana:
+        image: grafana/grafana
+        container_name: grafana
+        hostname: grafana
+        privileged: true
+        restart: always
+        volumes:
+            - /home/tongao/monitor/data/grafana-storage:/var/lib/grafana
+        ports:
+            - "3000:3000"
+        networks:
+            - monitor 
+        user: "472"  
+
+#    blackbox:
+ #       image: prom/blackbox-exporter
+  #      container_name: blackbox-exporter
+   #     hostname: blackbox-exporter
+    #    restart: always
+     #   ports:
+      #      - "9115:9115"
+       # volumes:
+        #    - /home/feizhai/Feizhai_boom:/config
+       # networks:
+       #     - monitor   
+        #command: --config.file=/config/blackbox.yml
+       # depends_on:
+        #    - prometheus
+
