@@ -62,7 +62,7 @@
 
 7. 分分钟启动部署一个运维监控系统 (**Prometheus**+**Grafana**) //待定
 
-![mon](https://tzr-1251830633.cos.ap-beijing.myqcloud.com/monitor.jpg)
+![mon](https://github.com/IvyB/Docker-hand-on-NEUMSC/raw/master/img/monitor.jpg)
 
 ## 安装 Docker
 
