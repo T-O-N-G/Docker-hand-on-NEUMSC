@@ -10,31 +10,32 @@
 
 ## Docker vs Dockerfile vs Docker compose 名词解释
 
-Docker：容器程序、服务
+- Docker：容器程序、服务
 
-Dockerfile：容器使用的镜像
+- Dockerfile：容器使用的镜像
 
-image：启动容器使用的镜像，可由dockerfile编译得到
+- image：启动容器使用的镜像，可由dockerfile编译得到
 
-container: 由镜像得到的容器，可直接启动
+- container: 由镜像得到的容器，可直接启动
 
-docker-compose：一个简单好用的多个容器编排管理工具
+- docker-compose：一个简单好用的多个容器编排管理工具
 
 
 
 ## 今天玩什么
 
-- 秒秒钟启动 Nginx
-- 编写 Dockerfile，制作一个自定义镜像
+1. 秒秒钟启动 Nginx
 
-- 编写 docker-compose 管理多个容器组成的服务 (WordPress为例)
-- 分分钟启动 WordPress
+2. 编写 Dockerfile，制作一个自定义镜像
 
-- 分分钟启动 JavaWeb (使用打好包的war文件)
+3. 编写 docker-compose 管理多个容器组成的服务 (WordPress为例)
+4. 分分钟启动 WordPress
 
-- 分分钟启动 Hadoop //待定
+5. 分分钟启动 JavaWeb应用 (使用打好包的war文件)
 
-- 分分钟启动部署一个监控运维系统 //待定
+6. 分分钟启动 Hadoop //待定
+
+7. 分分钟启动部署一个运维监控系统 //待定
 
 
 
