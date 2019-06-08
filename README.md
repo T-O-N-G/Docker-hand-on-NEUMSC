@@ -20,9 +20,9 @@
 
 #### **Docker 都可以搞定**
 
-![wudi](https://github.com/IvyB/Docker-hand-on-NEUMSC/raw/master/img/wudi.jpg)
+![](https://tzr-1251830633.cos.ap-beijing.myqcloud.com/wudi.jpg)
 
-https://raw.githubusercontent.com/IvyB/Docker-hand-on-NEUMSC/master/img/wudi.png
+
 
 ## 物理机 vs 虚拟机 vs 容器 有什么区别？？
 
