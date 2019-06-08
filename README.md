@@ -1,12 +1,17 @@
 # 遇见Docker - NEUMSC动手实验室
 
+![head](https://raw.githubusercontent.com/IvyB/Docker-hand-on-NEUMSC/master/img/head.png)
 
+满足你对 操作简单、跨平台、易于部署、高性能 的需求
 
 
 
 ## 物理机 vs 虚拟机 vs 容器 有什么区别？？
 
-现场见 :D
+- 从虚拟化原理角度思考
+- 从程序进程运行角度思考
+
+具体现场见 :D
 
 
 
