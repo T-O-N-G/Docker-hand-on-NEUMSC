@@ -24,18 +24,18 @@
 
 ## 今天玩什么
 
-1. 秒秒钟启动 Nginx
+1. 秒秒钟启动 **Nginx**
 
-2. 编写 Dockerfile，制作一个自定义镜像
+2. 编写 **Dockerfile**，制作一个自定义镜像
 
-3. 编写 docker-compose 管理多个容器组成的服务 (WordPress为例)
-4. 分分钟启动 WordPress
+3. 编写 **docker-compose** 管理多个容器组成的服务 (WordPress为例)
+4. 分分钟启动 **WordPress**
 
-5. 分分钟启动 JavaWeb应用 (使用打好包的war文件)
+5. 分分钟启动 **JavaWeb **应用 (使用打好包的war文件)
 
-6. 分分钟启动 Hadoop //待定
+6. 分分钟启动 **Hadoop** //待定
 
-7. 分分钟启动部署一个运维监控系统 //待定
+7. 分分钟启动部署一个运维监控系统 (**Prometheus**+**Grafana**) //待定
 
 
 
